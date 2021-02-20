@@ -1,11 +1,16 @@
 body{
     margin: 0;
     padding: 0;
-    background:url(./image.jpeg);
+    background:url(./image.jpeg)no-repeat;
     background-size: cover;
+    font-family:  sans-serif;
 }
-.container h1{
+ h1{
     font-size: 40px;
-    letter-spacing: 4px;
-    font-weight: 100; 
+    padding-top: 20px; 
+}
+
+.container{
+    width: 80%;
+    margin: auto;
 }
