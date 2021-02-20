@@ -4,22 +4,17 @@ body{
     background:url(./image.jpeg)no-repeat;
     background-size: cover;
 }
-body.html{
-    background-color: rgb(14, 12, 10);
-    font-family: sans-serif;
-    display: flex;
-    justify-content:space-between
-    align-items:center;
-    min-height: 100vh;
-}
  h1{
     font-size: 40px;
     padding-top: 20px; 
 }
 
 .container{
-    width: 80%;
+    width: 700px;
     margin: auto;
+    border: 10px;
+    align-items: center;
+    display: flex;
 }
 
 #year-input{
@@ -46,5 +41,11 @@ body.html{
     background-color :blanchedalmond;
     font-size: 13px;
     box-shadow: 2px px #000;
-    
+    width: 108px;
+    height: 32px;
+    font-size: 13px;
+    box-shadow: 2px 2px #000;
+}
+#result{
+    align-items: center;
 }
