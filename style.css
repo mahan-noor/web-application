@@ -3,7 +3,14 @@ body{
     padding: 0;
     background:url(./image.jpeg)no-repeat;
     background-size: cover;
-    font-family:  sans-serif;
+}
+body.html{
+    background-color: rgb(14, 12, 10);
+    font-family: sans-serif;
+    display: flex;
+    justify-content:space-between
+    align-items:center;
+    min-height: 100vh;
 }
  h1{
     font-size: 40px;
@@ -13,4 +20,31 @@ body{
 .container{
     width: 80%;
     margin: auto;
+}
+
+#year-input{
+    border-radius: 5px;
+    width: 60px;
+    height: 20px;
+    box-shadow: 2px 2px #000;
+}
+#month-input{
+    border-radius: 5px;
+    width: 60px;
+    height: 20px;
+    box-shadow: 2px 2px #000;
+}
+#date-input{
+    border-radius: 5px;
+    width: 60px;
+    height: 20px;
+    border-radius: 2px 2px #000;
+}
+#get-name{
+    border-radius: 5px;
+    text-align: center;
+    background-color :blanchedalmond;
+    font-size: 13px;
+    box-shadow: 2px px #000;
+    
 }
