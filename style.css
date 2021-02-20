@@ -4,3 +4,8 @@ body{
     background:url(./image.jpeg);
     background-size: cover;
 }
+.container h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100; 
+}
