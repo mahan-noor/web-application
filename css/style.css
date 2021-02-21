@@ -7,6 +7,7 @@ body{
  .container h1{
     font-size: 40px;
     padding-top: 20px; 
+    color: rgb(20, 12, 12);
 }
 body.html{
     background-color: rgb(14, 12, 10);
