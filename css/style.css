@@ -1,14 +1,21 @@
 body{
-    margin: 0px;
-    padding: 0px;
-    background-image: url(./image.jpeg);
+    margin: 0;
+    padding: 0;
+    background :url(./image.jpeg)no-repeat;
     background-size: cover;
+
 }
- .container h1{
-    font-size: 40px;
-    padding-top: 20px; 
-    color: rgb(20, 12, 12);
+.container{
+    width: 450px;
+    background:rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: black;
+    font-family: 'Century';
 }
+
 body.html{
     background-color: rgb(14, 12, 10);
     font-family: sans-serif;
@@ -17,13 +24,34 @@ body.html{
     align-items: center;
     min-height: 100vh;
 }
+.container h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100; 
+    color: bisque;
+}
 
-.row{
-    width: 450px;
-    background: black;
-    padding: 40px;
-    margin-top:  5%;
-    border: 10px;
-    text-align: center;
-    display: auto;
+.container p{
+    text-align: justify;
+    color: black;
+} 
+ul{
+    float: right;
+}
+ul li{
+    display: inline-block;
+}
+ol{
+    text-decoration: none;
+    color: rgb(39, 29, 29);
+    padding: 5px 20px;
+    border: 1px solid #fff;
+    transition: all ease-in-out 250ms;
+}
+ol li a:hover{
+    background-color: #fffbfb;
+    color: #000;
+}
+ul{
+    text-align: left;
 }
