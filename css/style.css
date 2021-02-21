@@ -4,7 +4,7 @@ body{
     background-image: url(./image.jpeg);
     background-size: cover;
 }
- h1{
+ .container h1{
     font-size: 40px;
     padding-top: 20px; 
 }
