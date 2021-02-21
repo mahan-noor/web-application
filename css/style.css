@@ -1,13 +1,13 @@
 body{
     margin: 0;
     padding: 0;
-    background :url(./image.jpeg)no-repeat;
+    background-image: url(./images/image.jpg);
     background-size: cover;
 
 }
 .container{
     width: 450px;
-    background:rgba(0, 0, 0, 0.4);
+    background:rgba(14, 9, 9, 0.4);
     padding: 40px;
     text-align: center;
     margin: auto;
@@ -17,7 +17,7 @@ body{
 }
 
 body.html{
-    background-color: rgb(14, 12, 10);
+    background-color: rgb(167, 113, 60);
     font-family: sans-serif;
     display: flex;
     justify-content:space-between
@@ -28,7 +28,7 @@ body.html{
     font-size: 40px;
     letter-spacing: 4px;
     font-weight: 100; 
-    color: bisque;
+    color: rgb(17, 16, 15);
 }
 
 .container p{
@@ -36,16 +36,16 @@ body.html{
     color: black;
 } 
 ul{
-    float: right;
+    float: inline-start;
 }
 ul li{
-    display: inline-block;
+    display: flow-root;
 }
 ol{
     text-decoration: none;
-    color: rgb(39, 29, 29);
+    color: rgb(59, 11, 11);
     padding: 5px 20px;
-    border: 1px solid #fff;
+    border: 1px solid rgb(19, 17, 17);
     transition: all ease-in-out 250ms;
 }
 ol li a:hover{
