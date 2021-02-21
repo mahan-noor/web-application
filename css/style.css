@@ -1,21 +1,63 @@
 body{
-    margin: 0;
-    padding: 0;
-    background:url(./image.jpeg)no-repeat;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./image.jpeg);
     background-size: cover;
 }
  h1{
     font-size: 40px;
     padding-top: 20px; 
 }
+body.html{
+    background-color: rgb(14, 12, 10);
+    font-family: sans-serif;
+    display: flex;
+    justify-content:space-between
+    align-items: center;
+    min-height: 100vh;
+}
 
-.container{
-    width: 700px;
+.row{
+    width: 600px;
     margin: auto;
     border: 10px;
     align-items: center;
-    display: flex;
+    display: auto;
 }
+
+#year-input{
+    border-radius: 5px;
+    width: 60px;
+    height: 20px;
+    box-shadow: 2px 2px #000;
+}
+#month-input{
+    border-radius: 5px;
+    width: 60px;
+    height: 20px;
+    box-shadow: 2px 2px #000;
+}
+#date-input{
+    border-radius: 5px;
+    width: 60px;
+    height: 20px;
+    border-radius: 2px 2px #000;
+}
+#get-name{
+    border-radius: 5px;
+    text-align: center;
+    font-size: 13px;
+    box-shadow: 2px px #000;
+    width: 108px;
+    height: 32px;
+    font-size: 13px;
+    box-shadow: 2px 2px #000;
+}
+#result{
+    align-items: center;
+}
+
+
 
 #year-input{
     border-radius: 5px;
