@@ -18,75 +18,11 @@ body.html{
 }
 
 .row{
-    width: 600px;
-    margin: auto;
+    width: 450px;
+    background: black;
+    padding: 40px;
+    margin-top:  5%;
     border: 10px;
-    align-items: center;
+    text-align: center;
     display: auto;
-}
-
-#year-input{
-    border-radius: 5px;
-    width: 60px;
-    height: 20px;
-    box-shadow: 2px 2px #000;
-}
-#month-input{
-    border-radius: 5px;
-    width: 60px;
-    height: 20px;
-    box-shadow: 2px 2px #000;
-}
-#date-input{
-    border-radius: 5px;
-    width: 60px;
-    height: 20px;
-    border-radius: 2px 2px #000;
-}
-#get-name{
-    border-radius: 5px;
-    text-align: center;
-    font-size: 13px;
-    box-shadow: 2px px #000;
-    width: 108px;
-    height: 32px;
-    font-size: 13px;
-    box-shadow: 2px 2px #000;
-}
-#result{
-    align-items: center;
-}
-
-
-
-#year-input{
-    border-radius: 5px;
-    width: 60px;
-    height: 20px;
-    box-shadow: 2px 2px #000;
-}
-#month-input{
-    border-radius: 5px;
-    width: 60px;
-    height: 20px;
-    box-shadow: 2px 2px #000;
-}
-#date-input{
-    border-radius: 5px;
-    width: 60px;
-    height: 20px;
-    border-radius: 2px 2px #000;
-}
-#get-name{
-    border-radius: 5px;
-    text-align: center;
-    font-size: 13px;
-    box-shadow: 2px px #000;
-    width: 108px;
-    height: 32px;
-    font-size: 13px;
-    box-shadow: 2px 2px #000;
-}
-#result{
-    align-items: center;
 }
