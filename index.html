@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link href="./css/style.css" type="text/css" rel="stylesheet">
     <style> body {
-    background-image: url(./images/image.jpg);}
+    background-image: url(./images/image.jpg);
+    background-size: cover;
+}
     </style>
     <title>Akan name project</title>
 </head>
@@ -41,11 +44,46 @@
                             <li><strong>Sartuday:</strong>Ama</li>
                         </ol>
                     </ul>
-                    <form>
-                     <button type="button" name="button" class="click" onclick="naming();">Submit</button>
-                    </form>
+                    <div>
+                        <div class="card" style="width: 15em; background-color: transparent;">
+                            <div class="card-body">
+                            <form name="myForm" class="form1" onsubmit="validate();">
+                                <div class="year">
+                                    <label for="year">Year of Birth:</label>
+                                    <input type="number" class="year" id="year" placeholder="Year of Birth" name="year">
+                                </div>
+                                <div class="month">
+                                    <label for="month">Month of Birth:</label>
+                                    <input type="number" class="month" id="month" placeholder="Month of Birth" name="month">
+                                </div>
+                                <div class="day">
+                                    <label for="date">Date of Birth:</label>
+                                    <input type="number" class="date" id="date" placeholder="Date of Birth" name="date">
+                                </div>
+                                <div class="gender">
+                                    <label for="gender">Gender</label><br>
+                                    <div class="form-check-inline">
+                                        <label class="male">
+                                            <input type="radio" class="male" name="gender" id="male"> Male
+                                        </label>
+                                    </div>
+                                    <div class="female">
+                                        <label class="female">
+                                            <input type="radio" class="female" name="gender" id="female"> Female
+                                        </label>
+                                    </div>
+                                </div>
+                            
+                                <div class="submit">
+                                    <button type="submit" class="btn btn-primary" onclick="getName();">Get Name</button>
+                                </div>
+                            </form>
+                            </div>
+                        </div>
+                        
+                    </div>
         </div>
     </div>
-    <script src="script.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>
